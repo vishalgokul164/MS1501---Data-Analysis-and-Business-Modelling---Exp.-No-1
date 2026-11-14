@@ -71,7 +71,6 @@ analysis for data-cleaning and preprocessing purposes.
   `df.columns`              Lists column names in the DataFrame.  
 
 ## Program & Output
-<< Enter your code and the corresponding screenshot of the output in this section>>
 
 
 
