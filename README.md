@@ -72,8 +72,76 @@ analysis for data-cleaning and preprocessing purposes.
 
 ## Program & Output
 
+from google.colab import drive
+import pandas as pd
+
+drive.mount('/content/drive')
+
+
+df = pd.read_csv('/content/drive/MyDrive/heartdisease.csv')
+
+
+print(df.shape)
+
+
+print(df.columns)
+
+
+df.info()
+
+
+print(df.dtypes)
+
+
+print(df['Age'].dtype)
+
+
+print(df.isnull().sum())
+
+
+print(df.duplicated().sum())
+
+
+df = df.drop_duplicates()
+
+
+print(df.describe())
+
+
+print(df.mean(numeric_only=True))
+
+
+print(df.head())
+
+
+print(df.tail())
+
+
+print(df.sort_values(by='Age').head())
+
+
+print(df.groupby('Gender')['Age'].mean())
+
+
+print(df.groupby('Gender')['Age'].median())
+
+
+print(df.groupby('Gender')['Age'].sum())
+
+
+print(df.groupby('Gender')['Age'].max())
+
+
+print(df.groupby('Gender')['Age'].min())
+
+
+df = df.rename(columns={'Totalcholestrol': 'Total_Cholesterol'})
+
+
+df.to_csv('/content/drive/MyDrive/heartdisease_cleaned.csv', index=False)
+
+
 
 
 ## Result
 
-<< Enter the program execution result>>
