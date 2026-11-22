@@ -1,11 +1,11 @@
-# Experiment No. 1: Data Cleaning and Preprocessing
+# EXPERIMENT NO. 1: DATA CLEANING AND PREPROCESSING
 
-## Aim
+## AIM
 
 To perform data cleaning and preprocessing on a business dataset using
 Python libraries for better data quality and analysis readiness.
 
-## Dataset
+## DATASET
 
 The dataset used for this experiment is `heartdisease.csv`. It contains
 medical and demographic information related to heart disease patients.
@@ -14,7 +14,7 @@ The dataset is opened and analyzed using Jupyter Notebook to study its
 data structure, identify data types, and perform basic statistical
 analysis for data-cleaning and preprocessing purposes.
 
-## Algorithm / Steps Followed
+## ALGORITHM / STEPS FOLLOWED
 
 1.  Import essential Python libraries.
 2.  Load the dataset using Pandas.
@@ -26,7 +26,7 @@ analysis for data-cleaning and preprocessing purposes.
 8.  Rename columns or modify data where necessary.
 9.  Save the cleaned dataset for further analysis.
 
-## Functions and Methods Used in the Experiment
+## FUNCTIONS AND METHODS USED
 
 ### 1. Data Loading and Basic Exploration
 
@@ -72,7 +72,7 @@ analysis for data-cleaning and preprocessing purposes.
   `df.columns`              Lists column names in the DataFrame.
 
 
-## Program & Output
+## PROGRAM & OUTPUT
 ## Input 1
 ```
 # Import essential Python libraries
@@ -481,6 +481,6 @@ Index(['sno', 'gender ', 'Age', 'education', 'currentSmoker', 'cigsPerDay',
 
 
 
-## Result
+## RESULT
 
 The dataset was successfully cleaned and preprocessed. Data types were verified, missing values and duplicate values were identified, and statistics were generated. The data is now ready for further analysis such as EDA and regression modelling.
